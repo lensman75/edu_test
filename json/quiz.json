@@ -1,0 +1,159 @@
+{
+  "quiz": {
+    "HTML": {
+      "q1": {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "Home Text Markup Language",
+          "Hyper Text Makeup Language"
+        ],
+        "answer": "Hyper Text Markup Language"
+      },
+      "q2": {
+        "question": "What is the file extension for HTML file?",
+        "options": [
+          ".webpage",
+          ".shtml",
+          "html",
+          "doc"
+        ],
+        "answer": "html"
+      },
+      "q3": {
+        "question": "Which tag will insert a line across the page?",
+        "options": [
+          "li",
+          "ui",
+          "h1",
+          "hr"
+        ],
+        "answer": "hr"
+      },
+      "q4": {
+        "question": "Which tag pairs marks the beginning and the end of an html document?",
+        "options": [
+          "body.../body",
+          "html.../html",
+          "title.../title",
+          "head.../head"
+        ],
+        "answer": "html.../html"
+      },
+      "q5": {
+        "question": "The page title is inside the ___ tag?",
+        "options": [
+          "body",
+          "head",
+          "division",
+          "table"
+        ],
+        "answer": "head"
+      }
+    },
+    "CSS": {
+      "q1": {
+        "question": "How can you create rounded corners using CSS3?",
+        "options": [
+          "border[round]:30px;",
+          "corner-effect: round;",
+          "border-radius:30px;",
+          "alpha-effect:round-corner;"
+        ],
+        "answer": "border-radius:30px;"
+      },
+      "q2": {
+        "question": "What does RGBa mean",
+        "options": [
+          "Review Get assistance Back-up",
+          "Red Green Blue alpha",
+          "Red Gray Brown alpha",
+          "Red Gold Black alpha"
+        ],
+        "answer": "Red Green Blue alpha"
+      },
+      "q3": {
+        "question": "What does the a stand for in RGBa",
+        "options": [
+          "alpha",
+          "aqua",
+          "apple",
+          "about"
+        ],
+        "answer": "alpha"
+      },
+      "q4": {
+        "question": "How to resize a background image using CSS3?",
+        "options": [
+          "background-size: 80px 60px;",
+          "bg-dimensions: 80px 60px;",
+          "background-proportion:80px",
+          "alpha-effect: bg-resize 80px 60px"
+        ],
+        "answer": "background-size: 80px 60px;"
+      },
+      "q5": {
+        "question": "How to rotate objects using CSS3?",
+        "options": [
+          "object-rotation: 30deg;",
+          "transform: rotate(30deg);",
+          "rotate-object: 30deg;",
+          "transform: rotate-30deg-clockwise;"
+        ],
+        "answer": "transform: rotate(30deg);"
+      }
+    },
+    "JavaScript": {
+      "q1": {
+        "question": "To insert a JavaScript into an HTML page, which tag is used?",
+        "options": [
+          "<script=’java’>",
+          "<javascript>",
+          "<script>",
+          "<js>"
+        ],
+        "answer": "<script>"
+      },
+      "q2": {
+        "question": "Which of the following is correct to write “Hello World” on the web page?",
+        "options": [
+          "System.out.println(“Hello World”)",
+          "print(“Hello World”)",
+          "document.write(“Hello World”)",
+          "response.write(“Hello World”)"
+        ],
+        "answer": "document.write(“Hello World”)"
+      },
+      "q3": {
+        "question": "What language defines the behavior of a web page?",
+        "options": [
+          "HTML",
+          "CSS",
+          "XML",
+          "Java Script"
+        ],
+        "answer": "Java Script"
+      },
+      "q4": {
+        "question": "What is the alternate name for Java script?",
+        "options": [
+          "LimeScript",
+          "LimeScript and ECMAScript",
+          "ECMScript",
+          "ECMAScript"
+        ],
+        "answer": "ECMAScript"
+      },
+      "q5": {
+        "question": "Which of the following function of Array object calls a function for each element in the array?",
+        "options": [
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        "answer": ""
+      }
+    }
+  }
+}
