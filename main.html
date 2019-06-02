@@ -20,39 +20,39 @@
 </head>
 <body>
 <header>
-    <nav class = "navbar navbar-expand-lg navbar-light">
+    <nav class = "navbar navbar-expand-lg navbar-light" id="mynav">
         <!--navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar-->
         <!--navbar navbar-expand-lg navbar-light bg-light-->
-        <a class = "navbar-brand navcustom" href = "#">Quiz</a>
+        <a class = "navbar-brand navcustom">Quiz</a>
         <button class = "navbar-toggler" type = "button" data-toggle = "collapse"
                 data-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "false"
                 aria-label = "Toggle navigation">
             <span class = "navbar-toggler-icon"></span>
         </button>
         
-        <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+        <div class = "collapse navbar-collapse" id = "navbarSupportedContent" style="margin-left: 10%">
             <ul class = "navbar-nav mr-auto">
                 <li class = "nav-item active">
                     <a class = "nav-link navcustom" href = "#">Home<span class = "sr-only">(current)</span></a>
                 </li>
                 <li class = "nav-item">
-                    <a class = "nav-link" href = "#">Link</a>
+                    <a class = "nav-link navcustom" href = "#quiz_titles">Go to quizes</a>
                 </li>
-                <li class = "nav-item dropdown">
-                    <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdown" role = "button"
-                       data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
-                        Dropdown
-                    </a>
-                    <div class = "dropdown-menu" aria-labelledby = "navbarDropdown">
-                        <a class = "dropdown-item" href = "#">Action</a>
-                        <a class = "dropdown-item" href = "#">Another action</a>
-                        <div class = "dropdown-divider"></div>
-                        <a class = "dropdown-item" href = "#">Something else here</a>
-                    </div>
-                </li>
-                <li class = "nav-item">
-                    <a class = "nav-link disabled" href = "#">Disabled</a>
-                </li>
+<!--                <li class = "nav-item dropdown">-->
+<!--                    <a class = "nav-link dropdown-toggle navcustom" href = "#" id = "navbarDropdown" role = "button"-->
+<!--                       data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">-->
+<!--                        Dropdown-->
+<!--                    </a>-->
+<!--                    <div class = "dropdown-menu" aria-labelledby = "navbarDropdown">-->
+<!--                        <a class = "dropdown-item" href = "#">Action</a>-->
+<!--                        <a class = "dropdown-item" href = "#">Another action</a>-->
+<!--                        <div class = "dropdown-divider"></div>-->
+<!--                        <a class = "dropdown-item" href = "#">Something else here</a>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class = "nav-item">-->
+<!--                    <a class = "nav-link disabled" href = "#">Disabled</a>-->
+<!--                </li>-->
             </ul>
             <form class = "form-inline my-2 my-lg-0">
                 <input class = "form-control mr-sm-2" type = "search" placeholder = "Search" aria-label = "Search">
@@ -60,16 +60,42 @@
             </form>
         </div>
     </nav>
-    <div class = "jumbotron jumbotron-fluid">
+    <div class = "jumbotron jumbotron-fluid" id="myjumbo">
         <div class = "container">
             <h1 class = "display-4">Knowledge is power</h1>
             <p class = "lead">Check your knowledge by passing some of quizes.</p>
-            <button type="button" class="btn btn-success" onclick="quizTitles()">Success</button>
+            <button type="button" class="btn btn-success" onclick="quizTitles()">Go to Quizes</button>
         </div>
     </div>
 </header>
-<main id="quiz_titles"></main>
+<main id="quiz_titles" style="margin-right: 125px; margin-left: 125px; padding-top: 125px">
+    <div class="card-deck">
+        <div class="card text-center" style="width: 12rem;">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 12rem;">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 12rem;">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</main>
 <footer></footer>
 <script src="scripts/link_switcher.js"></script>
+
+<script src="scripts/stick_header.js"></script>
 </body>
 </html>

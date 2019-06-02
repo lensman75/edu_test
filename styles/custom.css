@@ -37,5 +37,13 @@ html header #mainpage_container, body header #mainpage_container {
 html main, body main {
   height: 100%;
 }
+html .sticky, body .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+html .sticky + #quiz_titles, body .sticky + #quiz_titles {
+  padding-top: 102px;
+}
 
 /*# sourceMappingURL=custom.css.map */
