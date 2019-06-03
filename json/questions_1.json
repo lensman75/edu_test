@@ -1,0 +1,70 @@
+{
+  "quizzes": [
+    {
+      "name": "HTML",
+      "description": "Test for basic knowledge of HTML",
+      "questions": [
+        {
+          "text": "What is HTML?",
+          "answers": [
+            {
+              "text": "programming language",
+              "correct": false
+            },
+            {
+              "text": "markup language",
+              "correct": true
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "What is CSS?",
+          "answers": [
+            {
+              "text": "Cascade style sheet",
+              "correct": true
+            },
+            {
+              "text": "Copy selected style",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HTML LOL",
+      "description": "Test for basic knowledge of HTML",
+      "questions": [
+        {
+          "text": "What is HTML?",
+          "answers": [
+            {
+              "text": "programming language",
+              "correct": false
+            },
+            {
+              "text": "markup language",
+              "correct": true
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "What is CSS?",
+          "answers": [
+            {
+              "text": "Cascade style sheet",
+              "correct": true
+            },
+            {
+              "text": "Copy selected style",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

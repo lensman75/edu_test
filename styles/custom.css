@@ -16,11 +16,9 @@ html header, body header {
   flex-direction: column;
 }
 html header nav, body header nav {
-  background-color: #563d7c !important;
-  color: white;
-}
-html header nav .navcustom, body header nav .navcustom {
   color: white !important;
+  background-color: #563d7c !important;
+  background-color-color: white;
 }
 html header .jumbotron, body header .jumbotron {
   height: 100%;
@@ -37,6 +35,59 @@ html header #mainpage_container, body header #mainpage_container {
 html main, body main {
   height: 100%;
 }
+html main .container, body main .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+html main .container input, body main .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+html main .checkmark, body main .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  margin-right: 15px;
+}
+html main .container:hover input ~ .checkark, body main .container:hover input ~ .checkark {
+  background-color: #ccc;
+}
+html main .container input:checked ~ .checkmark, body main .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+html main .checkmark:after, body main .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+html main .container input:checked ~ .checkmark:after, body main .container input:checked ~ .checkmark:after {
+  display: block;
+}
+html main .container .checkmark:after, body main .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 html .sticky, body .sticky {
   position: fixed;
   top: 0;
@@ -44,6 +95,12 @@ html .sticky, body .sticky {
 }
 html .sticky + #quiz_titles, body .sticky + #quiz_titles {
   padding-top: 102px;
+}
+
+.myMenuDivider {
+  height: 100%;
+  width: 1px;
+  border: 1px solid white;
 }
 
 /*# sourceMappingURL=custom.css.map */
