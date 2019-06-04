@@ -80,10 +80,10 @@ function renderQuestion(){
     document.getElementById("totalQuizNumber").textContent = currentQuiz.questions.length;
     let html = "";
     for(let i=0; i<question.answers.length; i++) {
-        const answerHtml = ` <label class="container">${question.answers[i].text}
-                <input type="checkbox" id="answer-${i}">
-                <span class="checkmark"></span>
-            </label>\n`;
+        const answerHtml = `<label class="container">${question.answers[i].text}
+                                <input type="checkbox" id="answer-${i}">
+                                <span class="checkmark"></span>
+                            </label>\n`;
         html += answerHtml;
     }
     document.getElementById("answers").innerHTML = html;
@@ -122,13 +122,13 @@ function renderDeck() {
     let deckHtml = "";
     for(let i=0; i < quizzes.length; i++) {
         const quiz = quizzes[i];
-        const elemHtml = `<div class="card text-center" style="width: 12rem;">
-    <div class="card-body">
-        <h5 class="card-title">${quiz.name}</h5>
-        <p class="card-text">${quiz.description}</p>
-        <div class="btn btn-primary" onclick="startQuiz(${i})">Start</div>
-    </div>
-</div>\n`;
+        const elemHtml =    `<div class="card text-center" style="width: 12rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">${quiz.name}</h5>
+                                    <p class="card-text">${quiz.description}</p>
+                                    <div class="btn btn-primary" onclick="startQuiz(${i})">Start</div>
+                                </div>
+                             </div>\n`;
         deckHtml += elemHtml;
     }
     cardsDeck.innerHTML = deckHtml;
@@ -146,7 +146,6 @@ fetch('json/questions_1.json')
 
     })
     .then(function(myJson) {
-        console.log(myJson);
         data = myJson;
         renderDeck();
     });

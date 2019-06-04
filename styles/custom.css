@@ -16,9 +16,11 @@ html header, body header {
   flex-direction: column;
 }
 html header nav, body header nav {
-  color: white !important;
   background-color: #563d7c !important;
-  background-color-color: white;
+  color: white;
+}
+html header nav .navcustom, body header nav .navcustom {
+  color: white !important;
 }
 html header .jumbotron, body header .jumbotron {
   height: 100%;

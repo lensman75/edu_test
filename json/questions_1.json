@@ -5,28 +5,103 @@
       "description": "Test for basic knowledge of HTML",
       "questions": [
         {
-          "text": "What is HTML?",
+          "text": "What does HTML stand for?",
           "answers": [
             {
-              "text": "programming language",
+              "text": "Home Text Markup Language",
               "correct": false
             },
             {
-              "text": "markup language",
+              "text": "Hyper Text Markup Language",
               "correct": true
+            },
+            {
+              "text": "Hyper Text Makeup Language",
+              "correct": false
             }
           ],
           "points": 1
         },
         {
-          "text": "What is CSS?",
+          "text": "What is the file extension for HTML file?",
           "answers": [
             {
-              "text": "Cascade style sheet",
+              "text": ".webpage",
+              "correct": false
+            },
+            {
+              "text": ".shtml",
+              "correct": false
+            },
+            {
+              "text": ".html",
               "correct": true
             },
             {
-              "text": "Copy selected style",
+              "text": ".doc",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "text": "Which tag will insert a line across the page?",
+          "answers": [
+            {
+              "text": "li",
+              "correct": false
+            },
+            {
+              "text": "ui",
+              "correct": false
+            },
+            {
+              "text": "hi",
+              "correct": false
+            },
+            {
+              "text": "hr",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "text": "Which tag pairs marks the beginning and the end of an html document?",
+          "answers": [
+            {
+              "text": "body.../body",
+              "correct": false
+            },
+            {
+              "text": "html.../html",
+              "correct": true
+            },
+            {
+              "text": "title.../title",
+              "correct": false
+            },
+            {
+              "text": "head.../head",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "text": "The page title is inside the ___ tag?",
+          "answers": [
+            {
+              "text": "body",
+              "correct": false
+            },
+            {
+              "text": "head",
+              "correct": true
+            },
+            {
+              "text": "division",
+              "correct": false
+            },
+            {
+              "text": "table",
               "correct": false
             }
           ]
@@ -34,35 +109,234 @@
       ]
     },
     {
-      "name": "HTML LOL",
-      "description": "Test for basic knowledge of HTML",
+      "name": "CSS",
+      "description": "Test for basic knowledge of CSS",
       "questions": [
         {
-          "text": "What is HTML?",
+          "text": "How can you create rounded corners using CSS3?",
           "answers": [
             {
-              "text": "programming language",
+              "text": "border[round]:30px;",
               "correct": false
             },
             {
-              "text": "markup language",
+              "text": "corner-effect: round;",
+              "correct": false
+            },
+            {
+              "text": "border-radius:30px;",
+              "correct": true
+            },
+            {
+              "text": "alpha-effect:round-corner;",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "What does RGBa mean?",
+          "answers": [
+            {
+              "text": "Review Get assistance Back-up",
+              "correct": false
+            },
+            {
+              "text": "Red Green Blue alpha",
+              "correct": true
+            },
+            {
+              "text": "Red Gray Brown alpha",
+              "correct": false
+            },
+            {
+              "text": "Red Gold Black alpha",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "What does the a stand for in RGBa",
+          "answers": [
+            {
+              "text": "alpha",
+              "correct": true
+            },
+            {
+              "text": "aqua",
+              "correct": false
+            },
+            {
+              "text": "apple",
+              "correct": false
+            },
+            {
+              "text": "about",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "How to resize a background image using CSS3?",
+          "answers": [
+            {
+              "text": "background-size: 80px 60px;",
+              "correct": true
+            },
+            {
+              "text": "bg-dimensions: 80px 60px;",
+              "correct": false
+            },
+            {
+              "text": "background-proportion:80px",
+              "correct": false
+            },
+            {
+              "text": "alpha-effect: bg-resize 80px 60px",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "How to rotate objects using CSS3?",
+          "answers": [
+            {
+              "text": "object-rotation: 30deg;",
+              "correct": false
+            },
+            {
+              "text": "transform: rotate(30deg);",
+              "correct": true
+            },
+            {
+              "text": "rotate-object: 30deg;",
+              "correct": false
+            },
+            {
+              "text": "transform: rotate-30deg-clockwise;",
+              "correct": false
+            }
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "JS",
+      "description": "Test for basic knowledge of JS",
+      "questions": [
+        {
+          "text": "To insert a JavaScript into an HTML page, which tag is used?",
+          "answers": [
+            {
+              "text": "<script=’java’>",
+              "correct": false
+            },
+            {
+              "text": "<javascript>",
+              "correct": false
+            },
+            {
+              "text": "<script>",
+              "correct": true
+            },
+            {
+              "text": "<js>",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "Which of the following is correct to write “Hello World” on the web page?",
+          "answers": [
+            {
+              "text": "System.out.println(“Hello World”)",
+              "correct": false
+            },
+            {
+              "text": "print(“Hello World”)",
+              "correct": false
+            },
+            {
+              "text": "document.write(“Hello World”)",
+              "correct": true
+            },
+            {
+              "text": "response.write(“Hello World”)",
+              "correct": false
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "What language defines the behavior of a web page?",
+          "answers": [
+            {
+              "text": "HTML",
+              "correct": false
+            },
+            {
+              "text": "CSS",
+              "correct": false
+            },
+            {
+              "text": "XML",
+              "correct": false
+            },
+            {
+              "text": "Java Script",
               "correct": true
             }
           ],
           "points": 1
         },
         {
-          "text": "What is CSS?",
+          "text": "What is the alternate name for Java script?",
           "answers": [
             {
-              "text": "Cascade style sheet",
+              "text": "LimeScript",
+              "correct": false
+            },
+            {
+              "text": "LimeScript and ECMAScript",
+              "correct": false
+            },
+            {
+              "text": "ECMScript",
+              "correct": false
+            },
+            {
+              "text": "ECMAScript",
+              "correct": true
+            }
+          ],
+          "points": 1
+        },
+        {
+          "text": "How do you write \"Hello World\" in an alert box?",
+          "answers": [
+            {
+              "text": "alert(\"Hello world\");",
               "correct": true
             },
             {
-              "text": "Copy selected style",
+              "text": "msg(\"Hello world\");",
+              "correct": false
+            },
+            {
+              "text": "alertBox(\"Hello world\");",
+              "correct": false
+            },
+            {
+              "text": "msgBox(\"Hello world\");",
               "correct": false
             }
-          ]
+          ],
+          "points": 1
         }
       ]
     }
