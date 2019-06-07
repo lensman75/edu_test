@@ -229,22 +229,22 @@
       "description": "Test for basic knowledge of JS",
       "questions": [
         {
-          "text": "To insert a JavaScript into an HTML page, which tag is used?",
+          "text": "To insert a JavaScript into an HTML page, which tag is used in <>?",
           "answers": [
             {
-              "text": "<script=’java’>",
+              "text": "script=java",
               "correct": false
             },
             {
-              "text": "<javascript>",
+              "text": "javascript",
               "correct": false
             },
             {
-              "text": "<script>",
+              "text": "script",
               "correct": true
             },
             {
-              "text": "<js>",
+              "text": "js",
               "correct": false
             }
           ],
